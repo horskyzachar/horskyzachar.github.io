@@ -1,0 +1,148 @@
+/*Fonts*/
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../fonts/Montserrat-Regular.otf');
+
+  /*TODO add eot file for IE*/
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url('../fonts/Pacifico.ttf');
+
+  /*TODO add eot file for IE*/
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url('../fonts/Raleway-Regular.ttf');
+
+  /*TODO add eot file for IE*/
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url('../fonts/Georgia.ttf');
+}
+
+@font-face {
+  font-family: "Georgia-Italic";
+  src: url('../fonts/GeorgiaItalic.ttf');
+}
+
+/*Typography*/
+
+.landing-heading {
+  font-family: Montserrat-Regular;
+  font-size: 30pt;
+}
+
+.landing-subheading {
+  font-family: Pacifico;
+  font-size: 29pt;
+  color: #7bc1c9;
+}
+
+.landing-paragraph {
+  font-family: Raleway-Regular;
+  font-size: 16pt;
+  color: #a7a7a7;
+}
+
+.menu-item {
+  font-family: Montserrat-Regular;
+  font-size: 12pt;
+}
+
+.email-form {
+  font-family: Georgia;
+  background-color: #f2f2f2;
+}
+
+.footer-caption {
+  font-family: Raleway-Regular;
+  font-size: 16pt;
+  margin-top: 30px;
+  color: #6e6e6e;
+}
+
+.team-description {
+  font-family: Georgia-Italic;
+  font-weight: bold;
+}
+
+.team-email {
+  font-family: Georgia-Italic;
+}
+
+.team-member {
+  font-family: Montserrat-Regular;
+}
+
+/*-----------------------------------------*/
+
+footer {
+  background-color: #4f4f4f;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.btn-send {
+  color: white;
+  background-color: #6ebec7;
+  border-color: white;
+  border: 2px;
+}
+
+.input-lg {
+  height: 76px;
+}
+
+.form-control {
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+.glyphicon {
+  padding-right: 10px;
+}
+
+.navbar {
+  height: 110px;
+  margin-bottom: 0;
+  background-color: white;
+  border-bottom: none;
+}
+
+.navbar-right {
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.work-thumbnail {
+  margin-bottom: 50px;
+}
+
+.img-team {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.nav {
+  margin-top: 30px;
+}
+
+#container-main {
+  margin-top: 0;
+}
+
+#team {
+  background-color: #f3f3f3;
+  padding-bottom: 70px;
+}
