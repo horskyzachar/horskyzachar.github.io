@@ -1,3 +1,25 @@
+/*Fixes*/
+* { box-shadow: none !important; outline: none !important; }
+
+/*p { text-align: justify; }*/
+/*span[data-toggle=tooltip] { cursor: help; }*/
+/*.link-muted, .link-muted:focus, .link-muted:hover { color: #333; }*/
+/*.media { margin-top: 50px; }*/
+/*.media > .pull-left { margin: 75px 40px 0 0; }*/
+/*.media .list-unstyled { margin-left: 12px; }*/
+/*.media .list-unstyled li:first-letter { display:inline-block; margin-left: -10px; padding-left: 5px; border-left: 5px solid #eee; }*/
+/*.nav > li > a { display: inline-block; }*/
+/*.nav li > a:focus, .nav li > a:hover { background: transparent; text-decoration: underline; }*/
+/*.nav-narrow > li > a { padding: 10px 0; }*/
+/*.sidebar.affix { position: fixed; top: 75px; }*/
+/*.sidebar ul ul { display: none; font-size: 14px; }*/
+/*.sidebar ul ul li > a { padding-left: 25px; }*/
+/*.sidebar ul li.active > a { font-weight: bolder; }*/
+/*.sidebar ul ul li.active > a { font-weight: bolder; }*/
+/*.sidebar .active ul { display: block; }*/
+/*.text-capital { font-variant: small-caps; }*/
+/*.text-muted a { color: #999; }*/
+/*.text-muted a:focus, .text-muted a:hover { color: #888; }*/
 /*Fonts*/
 
 @font-face {
@@ -53,6 +75,7 @@
 .menu-item {
   font-family: Montserrat-Regular;
   font-size: 12pt;
+  /*color: gray;*/
 }
 
 .email-form {
@@ -80,13 +103,25 @@
   font-family: Montserrat-Regular;
 }
 
+h1, h2 {
+  padding-top: 105px;
+}
+
 /*-----------------------------------------*/
+body {
+  margin-top: 110px;
+}
+
+header {
+  margin: 0;
+}
 
 footer {
   background-color: #4f4f4f;
   height: 80px;
   margin-top: 10px;
 }
+
 
 .btn-send {
   color: white;
@@ -136,10 +171,6 @@ footer {
 
 ul.nav {
   margin-top: 30px;
-}
-
-#container-main {
-  margin-top: 0;
 }
 
 #team {
