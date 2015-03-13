@@ -175,6 +175,13 @@ footer {
   margin-bottom: 20px;
 }
 
+.landing-separator {
+  border: none;
+  height: 3px;
+  color: #000000;
+  background-color: #000000;
+}
+
 ul.nav {
   margin-top: 30px;
 }
