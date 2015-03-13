@@ -172,9 +172,14 @@ footer {
 .down-button {
   width: 65px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: -10px;
+  opacity: 0.5;
 }
 
+.down-button:hover {
+    opacity: 1;
+}
+    
 .landing-separator {
   border: none;
   height: 3px;
@@ -189,4 +194,17 @@ ul.nav {
 #team {
   background-color: #f3f3f3;
   padding-bottom: 70px;
+}
+
+.carousel-indicators {
+    margin-bottom: -15px;
+}
+
+.carousel-indicators li {
+    background-color: white;
+}
+
+.carousel-indicators .active {
+    background-color: #7bc1c9;
+    border-color: #7bc1c9;
 }
