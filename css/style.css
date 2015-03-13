@@ -112,7 +112,8 @@ body {
   margin-top: 110px;
 }
 
-header {
+#header-navbar {
+  padding: 0;
   margin: 0;
 }
 
@@ -121,7 +122,6 @@ footer {
   height: 80px;
   margin-top: 10px;
 }
-
 
 .btn-send {
   color: white;
@@ -183,8 +183,8 @@ footer {
 .landing-separator {
   border: none;
   height: 3px;
-  color: #000000;
-  background-color: #000000;
+  color: #303030;
+  background-color: #303030;
 }
 
 ul.nav {
