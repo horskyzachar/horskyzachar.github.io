@@ -169,6 +169,12 @@ footer {
   margin-bottom: 20px;
 }
 
+.down-button {
+  width: 65px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 ul.nav {
   margin-top: 30px;
 }
