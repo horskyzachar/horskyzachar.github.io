@@ -74,8 +74,8 @@
 
 .menu-item {
   font-family: Montserrat-Regular;
-  font-size: 12pt;
-  /*color: gray;*/
+  font-size: 10pt;
+  color: #a7a7a7;
 }
 
 .email-form {
@@ -107,6 +107,14 @@ h1, h2 {
   padding-top: 105px;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #a7a7a7;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #777;
+}
+
 /*-----------------------------------------*/
 body {
   margin-top: 110px;
@@ -115,6 +123,10 @@ body {
 #header-navbar {
   padding: 0;
   margin: 0;
+}
+
+.navbar-right {
+  padding-right: 45px;
 }
 
 footer {
@@ -207,4 +219,8 @@ ul.nav {
 .carousel-indicators .active {
     background-color: #7bc1c9;
     border-color: #7bc1c9;
+}
+
+.navbar-header {
+  padding-left: 42.5%;
 }
