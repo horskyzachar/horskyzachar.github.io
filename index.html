@@ -219,7 +219,7 @@
           </div>
           <div class="row">
             <div class="col-sm-offset-2 col-sm-5">
-              <input class="email-form form-control input-lg" type="email" name="_replyto" placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
+              <input class="email-form form-control input-lg" type="text" name="_replyto" placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
             </div>
             <div class="col-sm-3">
               <button type="submit" value="send" class="btn btn-default btn-lg btn-send input-lg form-control">
@@ -227,6 +227,9 @@
               </button>
             </div>
           </div>
+          <input type="hidden" name="_next" value="http://horskyzachar.github.io" />
+          <input type="hidden" name="_subject" value="Správa na horskyzachar.sk" />
+          <input type="text" name="_gotcha" style="display:none" />
         </form>
       </section>
 
