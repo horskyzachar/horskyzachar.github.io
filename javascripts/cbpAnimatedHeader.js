@@ -57,7 +57,7 @@ var cbpAnimatedHeader = (function() {
 
   function scrollPage() {
     var sy = scrollY();
-    if ( sy >= $('.item.active').height()/2 ) {
+    if ( sy >= $('.item.active').height()-110 ) {
       classie.remove( header, 'navbar-transparent' );
     }
     else {
