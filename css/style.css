@@ -121,10 +121,6 @@ h1, h2 {
   margin: 0;
 }
 
-.navbar-right {
-  padding-right: 45px;
-}
-
 footer {
   background-color: #4f4f4f;
   height: 80px;
@@ -181,9 +177,10 @@ footer {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff)";
 }
 
-.navbar-right {
-  margin-right: 30px;
-}
+/*.navbar-right {*/
+  /*margin-right: 30px;*/
+  /*padding-right: 45px;*/
+/*}*/
 
 .navbar-brand {
   height: auto;
@@ -259,10 +256,6 @@ ul.nav {
 .carousel-indicators .active {
     background-color: #7bc1c9;
     border-color: #7bc1c9;
-}
-
-.navbar-header {
-  padding-left: 42.5%;
 }
 
 .panel-team.panel-default {
