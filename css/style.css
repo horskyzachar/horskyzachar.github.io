@@ -137,13 +137,13 @@ footer {
 
 .social-footer {
   margin-top: 20px !important;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%) contrast(100%);
+  filter: grayscale(0%) contrast(100%);
 }
 
 .social-footer:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(100%) contrast(300%);
+  filter: grayscale(100%) contrast(300%);
 }
 
 .btn-send {
