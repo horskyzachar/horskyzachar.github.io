@@ -229,6 +229,16 @@ ul.nav {
   padding-bottom: 70px;
 }
 
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
 .carousel-indicators {
     margin-bottom: -15px;
 }
@@ -254,4 +264,14 @@ ul.nav {
 .shadowed {
   filter: drop-shadow(1px 1px 1px lightgray);
   -webkit-filter: drop-shadow(1px 3px 1px lightgray);
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
