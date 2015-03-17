@@ -184,15 +184,18 @@ footer {
   margin-bottom: 20px;
 }
 
-.down-button {
+.btn-down {
   width: 65px;
   height: auto;
   margin-bottom: -10px;
+}
+
+.btn-transparent {
   opacity: 0.5;
 }
 
-.down-button:hover {
-    opacity: 1;
+.btn-transparent:hover {
+  opacity: 1;
 }
 
 .img-center.img-responsive {
