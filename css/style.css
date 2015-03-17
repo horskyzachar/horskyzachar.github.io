@@ -49,7 +49,7 @@
 }
 
 @font-face {
-  font-family: "Georgia-Italic";
+  font-family: "GeorgiaItalic";
   src: url('../fonts/GeorgiaItalic.ttf');
 }
 
@@ -78,8 +78,8 @@
   color: #a7a7a7;
 }
 
-.email-form {
-  font-family: Georgia;
+.contact-form-field {
+  font-family: GeorgiaItalic;
   background-color: #f2f2f2;
 }
 
@@ -91,12 +91,12 @@
 }
 
 .team-description {
-  font-family: Georgia-Italic;
+  font-family: GeorgiaItalic;
   font-weight: bold;
 }
 
 .team-email {
-  font-family: Georgia-Italic;
+  font-family: GeorgiaItalic;
 }
 
 .team-member {
