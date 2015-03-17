@@ -108,11 +108,11 @@ h1, h2 {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #4c4c4c;
+  color: gray;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #3d3d3d;
+  color: black;
 }
 
 /*-----------------------------------------*/
