@@ -245,3 +245,13 @@ ul.nav {
 .navbar-header {
   padding-left: 42.5%;
 }
+
+.panel-team.panel-default {
+  border-radius: 0;
+  border-color: white;
+}
+
+.shadowed {
+  filter: drop-shadow(1px 1px 1px lightgray);
+  -webkit-filter: drop-shadow(1px 3px 1px lightgray);
+}
