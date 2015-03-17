@@ -1,35 +1,3 @@
-//$(document).ready(function(){
-//  var docElem = document.documentElement,
-//    header = document.querySelector( '.navbar-default' ),
-//    didScroll = false;
-//
-//  function init() {
-//    window.addEventListener( 'scroll', function( event ) {
-//      if( !didScroll ) {
-//        didScroll = true;
-//        setTimeout( scrollPage, 250 );
-//      }
-//    }, false );
-//  }
-//
-//  function scrollPage() {
-//    if ( scrollY() >= $('.item.active').height() - 110 ) {
-//      header.removeClass('navbar-transparent');
-//    }
-//    else {
-//      header.addClass('navbar-transparent');
-//    }
-//    didScroll = false;
-//  }
-//
-//  function scrollY() {
-//    return window.pageYOffset || docElem.scrollTop;
-//  }
-//
-//  init();
-//
-//});
-
 /**
  * cbpAnimatedHeader.js v1.0.0
  * http://www.codrops.com
