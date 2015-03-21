@@ -91,8 +91,8 @@
       </div>
     </header>
 
-    <div id="container-main" class="container">
-      <section id="work">
+    <section id="work">
+      <div class="container">
         <div class="row">
           <div class="col-sm-offset-4 col-sm-4">
             <h1 class="landing-heading text-center">NAŠE PROJEKTY</h1>
@@ -155,9 +155,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="team">
+    <section id="team">
+      <div class="container">
         <div class="row">
           <div class="col-sm-offset-4 col-sm-4">
             <h1 class="landing-heading text-center">TÍM H&amp;Z</h1>
@@ -205,9 +207,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contact">
+    <section id="contact">
+      <div class="container">
         <div class="row">
           <div class="col-sm-offset-4 col-sm-4">
             <h1 class="landing-heading text-center">KONTAKT</h1>
@@ -227,12 +231,15 @@
         <form name="send-message" id="contact-form" method="POST" action="http://formspree.io/andrej@horskyzachar.sk">
           <div class="row">
             <div class="col-sm-offset-2 col-sm-8">
-              <textarea name="message" cols="30" rows="15" placeholder="Napíšte nám..." class="form-control contact-form-field input-lg" required data-validation-required-message="Prosím vyplňte text správy."></textarea>
+              <textarea name="message" cols="30" rows="15" placeholder="Napíšte nám..."
+                        class="form-control contact-form-field input-lg" required
+                        data-validation-required-message="Prosím vyplňte text správy."></textarea>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-offset-2 col-sm-5">
-              <input class="contact-form-field form-control input-lg" type="text" name="_replyto" placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
+              <input class="contact-form-field form-control input-lg" type="text" name="_replyto"
+                     placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
             </div>
             <div class="col-sm-3">
               <button type="submit" value="send" class="btn btn-default btn-lg btn-send input-lg form-control shadowed">
@@ -240,14 +247,14 @@
               </button>
             </div>
           </div>
-          <input type="hidden" name="_next" value="http://horskyzachar.github.io" />
-          <input type="hidden" name="_subject" value="Správa na horskyzachar.sk" />
-          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="http://horskyzachar.github.io"/>
+          <input type="hidden" name="_subject" value="Správa na horskyzachar.sk"/>
+          <input type="text" name="_gotcha" style="display:none"/>
         </form>
-      </section>
+      </div>
+    </section>
 
-      <a href="#page-top" class="page-scroll"><img class="img-responsive img-center btn-transparent" src="images/up_button.png" alt="up"/></a>
-    </div>
+    <a href="#page-top" class="page-scroll"><img class="img-responsive img-center btn-transparent" src="images/up_button.png" alt="up"/></a>
 
     <footer>
       <div class="container">
