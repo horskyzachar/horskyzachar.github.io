@@ -190,6 +190,7 @@ footer {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 5px solid white;
 }
 
 .btn-down {
@@ -260,7 +261,7 @@ ul.nav {
 
 .shadowed {
   filter: drop-shadow(1px 1px 1px lightgray);
-  -webkit-filter: drop-shadow(1px 3px 1px lightgray);
+  -webkit-filter: drop-shadow(1px 1px 1px lightgray);
 }
 
 .fill {
