@@ -53,16 +53,37 @@
   src: url('../fonts/GeorgiaItalic.ttf');
 }
 
+@font-face {
+  font-family: "MuseoSlab500";
+  src: url('../fonts/Museo_Slab_500.otf');
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url('../fonts/Lato-Reg.ttf')
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url('../fonts/Lato-Bol.ttf')
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: url('../fonts/Lato-Lig.ttf')
+}
+
 /*Typography*/
 
 .landing-heading {
-  font-family: Montserrat-Regular;
-  font-size: 24pt;
+  font-family: LatoRegular;
+  font-size: 24.2pt;
+  margin-bottom: 3px;
 }
 
 .landing-subheading {
-  font-family: Pacifico;
-  font-size: 23pt;
+  font-family: MuseoSlab500;
+  font-size: 21.5pt;
   color: #7bc1c9;
 }
 
@@ -116,6 +137,10 @@ h1, h2 {
 }
 
 /*-----------------------------------------*/
+/*body {*/
+  /*padding-top: 105px;*/
+/*}*/
+
 #header-navbar {
   padding: 0;
   margin: 0;
@@ -216,8 +241,9 @@ footer {
 }
     
 .landing-separator {
+  margin: 0;
   border: none;
-  height: 3px;
+  height: 2px;
   color: #303030;
   background-color: #303030;
 }
