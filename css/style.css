@@ -106,8 +106,8 @@
 
 .copyright {
   font-family: Raleway-Regular;
-  font-size: 15pt;
-  margin-top: 30px;
+  font-size: 13pt;
+  margin-top: 15px;
   color: #6e6e6e;
 }
 
@@ -148,12 +148,12 @@ h1, h2 {
 
 footer {
   background-color: #4f4f4f;
-  height: 80px;
+  height: 50px;
   margin-top: 10px;
 }
 
 .social-footer {
-  margin-top: 20px !important;
+  margin-top: 5px !important;
   -webkit-filter: grayscale(0%) contrast(100%);
   filter: grayscale(0%) contrast(100%);
 }
