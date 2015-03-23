@@ -20,6 +20,14 @@
 /*.text-capital { font-variant: small-caps; }*/
 /*.text-muted a { color: #999; }*/
 /*.text-muted a:focus, .text-muted a:hover { color: #888; }*/
+
+/* Custom container width */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
 /*Fonts*/
 
 @font-face {
