@@ -307,3 +307,7 @@ ul.nav {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.col-centered {
+  text-align: center;
+}
