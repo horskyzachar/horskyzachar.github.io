@@ -132,10 +132,6 @@
   font-family: Montserrat-Regular;
 }
 
-h1, h2 {
-  padding-top: 105px;
-}
-
 .navbar-default .navbar-nav>li>a {
   color: gray;
 }
