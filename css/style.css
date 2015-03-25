@@ -308,6 +308,10 @@ ul.nav {
   -o-background-size: cover;
 }
 
+.navbar-logo {
+  padding: 15px 15px;
+}
+
 .col-centered {
   text-align: center;
 }
