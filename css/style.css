@@ -126,10 +126,12 @@
 
 .team-email {
   font-family: GeorgiaItalic;
+  margin-bottom: 0;
 }
 
 .team-member {
   font-family: Montserrat-Regular;
+  font-size: 15pt;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -210,9 +212,27 @@ footer {
   height: auto;
 }
 
+/*.work-caption {*/
+  /*position: absolute;*/
+  /*top: 50px;*/
+  /*left: 30px;*/
+  /*width: 100%;*/
+  /*display: none*/
+/*}*/
+
 .work-thumbnail {
   margin-bottom: 50px;
+  position: relative;
 }
+
+/*.work-thumbnail:hover {*/
+  /*filter: grayscale(100%);*/
+  /*-webkit-filter: grayscale(100%);*/
+/*}*/
+
+/*.work-thumbnail:hover + .work-caption {*/
+  /*display: inline;*/
+/*}*/
 
 .img-team {
   margin-left: auto;
@@ -252,6 +272,10 @@ footer {
   background-color: #303030;
 }
 
+.landing-paragraph {
+  margin-bottom: 20px;
+}
+
 ul.nav {
   margin-top: 30px;
 }
@@ -287,6 +311,7 @@ ul.nav {
 .panel-team.panel-default {
   border-radius: 0;
   border-color: white;
+  height: 305px;
 }
 
 .shadowed {
@@ -310,4 +335,8 @@ ul.nav {
 
 .col-centered {
   text-align: center;
+}
+
+#up-button {
+  margin-top: 15px;
 }
