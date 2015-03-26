@@ -81,6 +81,11 @@
   src: url('../fonts/Lato-Lig.ttf')
 }
 
+@font-face {
+  font-family: "MissionScript";
+  src: url('../fonts/Mission-Script.otf');
+}
+
 /*Typography*/
 
 .landing-heading {
