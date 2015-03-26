@@ -81,6 +81,20 @@
   src: url('../fonts/Lato-Lig.ttf')
 }
 
+@font-face {
+  font-family: "SofiaRegular";
+  src: url('../fonts/Sofia-Regular.otf');
+}
+
+@font-face {
+  font-family: "PeregroyJF";
+  src: url('../fonts/Peregroyjf.ttf');
+}
+
+@font-face {
+  font-family: "MissionScript";
+  src: url('../fonts/Mission-Script.otf');
+}
 /*Typography*/
 
 .landing-heading {
@@ -132,6 +146,12 @@
 .team-member {
   font-family: Montserrat-Regular;
   font-size: 15pt;
+}
+
+.blog-title {
+  font-family: MuseoSlab500;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -214,10 +234,17 @@ footer {
 
 .work-caption {
   position: absolute;
-  top: 50px;
-  left: 30px;
-  width: 100%;
-  display: none
+  top: 60px;
+  text-align: center;
+  width: 85%;
+  display: none;
+}
+
+.work-caption h3 {
+  font-family: MissionScript;
+  color: white;
+  font-size: 35pt;
+  letter-spacing: 1.5px;
 }
 
 .work-thumbnail {
@@ -230,7 +257,7 @@ footer {
   -webkit-filter: grayscale(100%);
 }
 
-.work-thumbnail:hover + .work-caption {
+.work-thumbnail:hover .work-caption {
   display: inline;
 }
 
@@ -300,7 +327,8 @@ ul.nav {
 }
 
 .carousel-indicators li {
-    background-color: white;
+  background-color: white;
+  border-color: lightgray;
 }
 
 .carousel-indicators .active {
@@ -339,4 +367,15 @@ ul.nav {
 
 #up-button {
   margin-top: 15px;
+}
+
+#carousel-work {
+  margin-bottom: 30px;
+}
+
+
+/*Blog*/
+
+.blog-content .row {
+  margin-bottom: 5px;
 }
