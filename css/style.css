@@ -149,9 +149,10 @@
 }
 
 .blog-title {
-  font-family: MuseoSlab500;
+  font-family: MissionScript;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+  letter-spacing: 2px;
 }
 
 .navbar-default .navbar-nav>li>a {
