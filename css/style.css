@@ -150,6 +150,7 @@
 
 .blog-title {
   font-family: MissionScript;
+  font-size: 40pt;
   margin-top: 50px;
   margin-bottom: 70px;
   letter-spacing: 2px;
@@ -378,5 +379,18 @@ ul.nav {
 /*Blog*/
 
 .blog-content .row {
+  margin-bottom: 5px;
+}
+
+.navbar-blog {
+  height: 80px;
+}
+
+.navbar-blog-logo {
+  height: 80px;
+  padding: 10px 5px;
+}
+
+.img-blog {
   margin-bottom: 5px;
 }
