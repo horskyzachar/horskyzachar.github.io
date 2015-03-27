@@ -96,9 +96,9 @@
 
 .landing-subheading {
   font-family: MissionScript;
-  font-size: 21.5pt;
+  font-size: 24.5pt;
   color: #7bc1c9;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .landing-paragraph {
@@ -237,7 +237,7 @@ footer {
   font-family: MissionScript;
   color: white;
   font-size: 35pt;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .work-thumbnail {
