@@ -82,19 +82,10 @@
 }
 
 @font-face {
-  font-family: "SofiaRegular";
-  src: url('../fonts/Sofia-Regular.otf');
-}
-
-@font-face {
-  font-family: "PeregroyJF";
-  src: url('../fonts/Peregroyjf.ttf');
-}
-
-@font-face {
   font-family: "MissionScript";
   src: url('../fonts/Mission-Script.otf');
 }
+
 /*Typography*/
 
 .landing-heading {
@@ -104,9 +95,10 @@
 }
 
 .landing-subheading {
-  font-family: MuseoSlab500;
+  font-family: MissionScript;
   font-size: 21.5pt;
   color: #7bc1c9;
+  letter-spacing: 1.5px;
 }
 
 .landing-paragraph {
@@ -194,8 +186,7 @@ footer {
 .btn-send {
   color: white;
   background-color: #6ebec7;
-  border-color: white;
-  border: 2px;
+  border: 3px solid white;
 }
 
 .input-lg {
