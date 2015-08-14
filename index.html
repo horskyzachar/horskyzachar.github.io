@@ -111,16 +111,18 @@
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-work" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-work" data-slide-to="1"></li>
           </ol>
 
           <div class="carousel-inner" role="listbox">
+
             <div class="item active">
               <div class="row">
                 <div class="col-sm-4 work-thumbnail">
                   <a href="blogs/01_toporovci/blog.html">
                     <img class="img-responsive" src="blogs/01_toporovci/thumbnail.jpg" alt="toporovci"/>
                     <div class="work-caption">
-                      <h3>Toporovci</h3>
+                      <h3>B&L</h3>
                     </div>
                   </a>
                 </div>
@@ -202,6 +204,37 @@
                 </div>
               </div>
             </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-4 work-thumbnail">
+                  <a href="blogs/01_toporovci/blog.html">
+                    <img class="img-responsive" src="blogs/01_toporovci/thumbnail.jpg" alt="toporovci"/>
+                    <div class="work-caption">
+                      <h3>B&L</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-4 work-thumbnail">
+                  <a href="blogs/02_didovci/blog.html">
+                    <img class="img-responsive" src="blogs/02_didovci/thumbnail.jpg" alt="didovci"/>
+                    <div class="work-caption">
+                      <h3>Didovci</h3>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-4 work-thumbnail">
+                  <a href="blogs/03_komackovci/blog.html">
+                    <img class="img-responsive" src="blogs/03_komackovci/thumbnail.jpg" alt="komackovci"/>
+                    <div class="work-caption">
+                      <h3>Komáckovci</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -276,7 +309,7 @@
         <form name="send-message" id="contact-form" method="POST" action="http://formspree.io/andrej@horskyzachar.sk">
           <div class="row">
             <div class="col-sm-offset-2 col-sm-8">
-              <textarea name="message" cols="30" rows="15" placeholder="Napíšte nám..."
+              <textarea name="message" cols="30" rows="10" placeholder="Napíšte nám..."
                         class="form-control contact-form-field input-lg" required
                         data-validation-required-message="Prosím vyplňte text správy."></textarea>
             </div>
@@ -311,10 +344,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <p class="copyright">Copyright &copy; 2015 Horsky&amp;Zachar Photographers</p>
+            <p class="footer-text pull-right">Copyright &copy; 2015 Horsky&amp;Zachar Photographers</p>
           </div>
           <div class="col-md-2 col-centered">
             <a href="http://goo.gl/j6Wqd0" target="_blank"><img class="social-footer" src="images/facebook.png" alt="Facebook"/></a>
+          </div>
+          <div class="col-md-5">
+            <ul class="footer-text list-unstyled list-inline">
+              <li><a href="#page-top" class="footer-link page-scroll">Domov</a></li>
+              <li><a href="#work" class="footer-link page-scroll">Portfólio</a></li>
+              <li><a href="#team" class="footer-link page-scroll">Tím</a></li>
+              <li><a href="#contact" class="footer-link page-scroll">Kontakt</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -326,6 +367,7 @@
     <script src="javascripts/scrolling-nav.js"></script>
     <script src="javascripts/classie.js"></script>
     <script src="javascripts/cbpAnimatedHeader.js"></script>
+    <script src="javascripts/carousel-adjustments.js"></script>
     <script>
       $('#carousel-work').carousel({interval: false});
     </script>

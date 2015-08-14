@@ -98,11 +98,21 @@
   background-color: #f2f2f2;
 }
 
-.copyright {
+.footer-text {
   font-family: Raleway-Regular;
-  font-size: 12pt;
-  margin-top: 18px;
+  font-size: 10pt;
+  margin-top: 7px;
   color: #6e6e6e;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+.footer-link:hover {
+  color: ghostwhite;
+  text-decoration: none;
 }
 
 .team-description {
@@ -146,14 +156,19 @@
   margin: 0;
 }
 
+section {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
 footer {
   background-color: #4f4f4f;
-  height: 50px;
-  margin-top: 10px;
+  height: 35px;
 }
 
 .social-footer {
-  margin-top: 5px !important;
+  margin-top: 3px !important;
+  height: 30px;
   -webkit-filter: grayscale(0%) contrast(100%);
   filter: grayscale(0%) contrast(100%);
 }
@@ -214,7 +229,7 @@ footer {
 }
 
 .work-caption h3 {
-  font-family: MissionScript;
+  font-family: Raleway-Regular;
   color: white;
   font-size: 35pt;
   letter-spacing: 2px;
@@ -341,6 +356,7 @@ ul.nav {
 
 #up-button {
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 #carousel-work {
