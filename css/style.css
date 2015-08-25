@@ -132,16 +132,17 @@
 
 .blog-title {
   font-family: LatoRegular;
-  font-size: 40pt;
+  font-size: 50pt;
+  letter-spacing: 4px;
   color: ghostwhite;
   position: absolute;
   top: 50%;
   left: 47%;
-  letter-spacing: 2px;
 }
 
 .bordered {
-  border: 5px solid white;
+  border: 7px solid ghostwhite;
+  padding: 20px 100px 20px 100px;
 }
 
 .blog-landing {
@@ -236,7 +237,7 @@ footer {
 .work-caption h3 {
   font-family: LatoRegular;
   color: white;
-  font-size: 35pt;
+  font-size: 24.2pt;
   letter-spacing: 2px;
 }
 
