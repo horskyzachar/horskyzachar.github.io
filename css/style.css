@@ -131,13 +131,17 @@
 }
 
 .blog-title {
-  font-family: MissionScript;
+  font-family: LatoRegular;
   font-size: 40pt;
   color: ghostwhite;
   position: absolute;
   top: 50%;
   left: 47%;
   letter-spacing: 2px;
+}
+
+.bordered {
+  border: 5px solid white;
 }
 
 .blog-landing {
@@ -230,7 +234,7 @@ footer {
 }
 
 .work-caption h3 {
-  font-family: Raleway-Regular;
+  font-family: LatoRegular;
   color: white;
   font-size: 35pt;
   letter-spacing: 2px;
