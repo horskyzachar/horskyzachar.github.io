@@ -324,6 +324,10 @@ ul.nav {
   height: 100%;
 }
 
+.work-carousel-indicator:not(.active) {
+  border-color: gray !important;
+}
+
 /*.carousel-caption {*/
   /*margin-bottom: 80px;*/
 /*}*/
