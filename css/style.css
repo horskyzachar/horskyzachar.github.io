@@ -1,6 +1,11 @@
 /*Fixes*/
 * { box-shadow: none !important; outline: none !important; }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Custom container width */
 @media (min-width: 1200px) {
   .container {
@@ -130,23 +135,25 @@
   font-size: 15pt;
 }
 
+.bordered {
+  border: 7px solid ghostwhite;
+  padding: 20px 100px 20px 100px;
+}
+
+.blog-header {
+  position: relative;
+}
+
 .blog-title {
   font-family: LatoRegular;
   font-size: 50pt;
   letter-spacing: 4px;
   color: ghostwhite;
   position: absolute;
+  text-align: center;
   top: 50%;
-  left: 47%;
-}
-
-.bordered {
-  border: 7px solid ghostwhite;
-  padding: 20px 100px 20px 100px;
-}
-
-.blog-landing {
-  margin-bottom: 30px;
+  left: 50%;
+  margin-left: -175px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -190,8 +197,8 @@ footer {
   border: 3px solid white;
 }
 
-.input-lg {
-  height: 76px;
+.input-md {
+  height: 55px;
 }
 
 .form-control {
@@ -266,7 +273,7 @@ footer {
 .btn-down {
   width: 65px;
   height: auto;rgba(255, 255, 255, 0.4);
-  margin-bottom: -10px;
+  margin-bottom: 40px;
 }
 
 .btn-transparent {
@@ -287,7 +294,7 @@ footer {
     
 .landing-separator {
   margin-top: 0;
-  margin-bottom: 20px
+  margin-bottom: 40px !important;
   border: none;
   height: 2px;
   color: #303030;
@@ -295,7 +302,7 @@ footer {
 }
 
 .landing-paragraph {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 ul.nav {
@@ -317,6 +324,10 @@ ul.nav {
   height: 100%;
 }
 
+/*.carousel-caption {*/
+  /*margin-bottom: 80px;*/
+/*}*/
+
 .carousel-indicators {
     margin-bottom: -15px;
 }
@@ -329,6 +340,10 @@ ul.nav {
 .carousel-indicators .active {
     background-color: #7bc1c9;
     border-color: #7bc1c9;
+}
+
+#carousel-title-indicators {
+  margin-bottom: 30px;
 }
 
 .panel-team.panel-default {

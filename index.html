@@ -33,20 +33,22 @@
 
           <div class="collapse navbar-collapse">
             <div class="row">
-              <div class="col-md-4">
-                <ul class="nav navbar-nav pull-right">
-                  <li><a href="#page-top" class="menu-item page-scroll">DOMOV</a></li>
-                  <li><a href="#work" class="menu-item page-scroll">PORTFÓLIO</a></li>
-                </ul>
-              </div>
-              <div class="col-md-4 col-centered">
-                <a class="page-scroll" href="#page-top"><img class="navbar-blog-logo" alt="H&amp;Z" src="images/hz_logo.png"></a>
-              </div>
-              <div class="col-md-4">
-                <ul class="nav navbar-nav pull-left">
-                  <li><a href="#team" class="menu-item page-scroll">TÍM</a></li>
-                  <li><a href="#contact" class="menu-item page-scroll">KONTAKT</a></li>
-                </ul>
+              <div class="col-md-offset-1 col-md-10">
+                <div class="col-md-4">
+                  <ul class="nav navbar-nav pull-right">
+                    <li><a href="#page-top" class="menu-item page-scroll">DOMOV</a></li>
+                    <li><a href="#work" class="menu-item page-scroll">PORTFÓLIO</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-centered">
+                  <a class="page-scroll" href="#page-top"><img class="navbar-blog-logo" alt="H&amp;Z" src="images/hz_logo.png"></a>
+                </div>
+                <div class="col-md-4">
+                  <ul class="nav navbar-nav pull-left">
+                    <li><a href="#team" class="menu-item page-scroll">TÍM</a></li>
+                    <li><a href="#contact" class="menu-item page-scroll">KONTAKT</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +56,7 @@
     </nav>
 
     <header id="carousel-title" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <ol id="carousel-title-indicators" class="carousel-indicators">
         <li data-target="#carousel-title" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-title" data-slide-to="1"></li>
         <li data-target="#carousel-title" data-slide-to="2"></li>
@@ -318,11 +320,11 @@
           </div>
           <div class="row">
             <div class="col-sm-offset-2 col-sm-5">
-              <input class="contact-form-field form-control input-lg" type="text" name="_replyto"
+              <input class="contact-form-field form-control input-md" type="text" name="_replyto"
                      placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
             </div>
             <div class="col-sm-3">
-              <button type="submit" value="send" class="btn btn-default btn-lg btn-send input-lg form-control shadowed">
+              <button type="submit" value="send" class="btn btn-default btn-lg btn-send input-md form-control shadowed">
                 <span class="glyphicon glyphicon-send" aria-hidden="true"></span>POSLAŤ
               </button>
             </div>
