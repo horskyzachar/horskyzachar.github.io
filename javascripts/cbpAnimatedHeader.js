@@ -40,4 +40,8 @@ var cbpAnimatedHeader = (function() {
 
   init();
 
-})();
+});
+
+$(document).ready(function(){
+  cbpAnimatedHeader();
+});

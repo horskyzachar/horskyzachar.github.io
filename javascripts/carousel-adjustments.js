@@ -24,5 +24,6 @@ function carouselNormalization() {
     });
   }
 };
-
-carouselNormalization();
+$(document).ready(function(){
+  carouselNormalization();
+});
