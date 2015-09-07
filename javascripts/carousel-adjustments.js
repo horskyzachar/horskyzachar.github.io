@@ -1,4 +1,4 @@
-function carouselNormalization() {
+var carouselNormalization = function() {
   var items = $('#carousel-work .item'), //grab all slides
     heights = [], //create empty array to store height values
     tallest; //create variable to make note of the tallest slide
