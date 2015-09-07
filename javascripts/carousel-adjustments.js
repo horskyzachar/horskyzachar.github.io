@@ -27,5 +27,4 @@ var carouselNormalization = function() {
 
 $(window).load(function(){
   carouselNormalization();
-      console.log("tu som 2");
 });
