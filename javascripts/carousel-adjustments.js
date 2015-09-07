@@ -24,5 +24,7 @@ $(document).ready(function(){
         normalizeHeights(); //run it again
       });
     }
+    
+    console.log("tu som");
   }();
 });
