@@ -23,10 +23,9 @@ var carouselNormalization = function() {
       normalizeHeights(); //run it again
     });
   }
-    
-    console.log("tu som");
 }
 
 $(window).load(function(){
   carouselNormalization();
+      console.log("tu som 2");
 });
