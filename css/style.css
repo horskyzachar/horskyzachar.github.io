@@ -349,7 +349,7 @@ ul.nav {
 .panel-team.panel-default {
   border-radius: 0;
   border-color: white;
-  height: 305px;
+  min-height: 305px;
 }
 
 .shadowed {
