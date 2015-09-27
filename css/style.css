@@ -176,7 +176,7 @@ section {
 
 footer {
   background-color: #4f4f4f;
-  height: 35px;
+  min-height: 35px;
 }
 
 .social-footer {
