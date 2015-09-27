@@ -244,7 +244,7 @@ footer {
 .work-caption h3 {
   font-family: LatoRegular;
   color: white;
-  font-size: 24.2pt;
+  font-size: 2.3em;/*24.2pt;*/
   letter-spacing: 2px;
 }
 
