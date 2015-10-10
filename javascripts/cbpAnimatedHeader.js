@@ -14,9 +14,6 @@ var cbpAnimatedHeader = (function() {
     header = document.querySelector( '.navbar-default' ),
     didScroll = false;
 
-  if($(window).width() > 767) {
-    classie.add(header, 'navbar-transparent');
-
     function init() {
       window.addEventListener('scroll', function (event) {
         if (!didScroll) {
@@ -42,7 +39,6 @@ var cbpAnimatedHeader = (function() {
     }
 
     init();
-  }
 
 });
 
