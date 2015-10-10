@@ -14,31 +14,35 @@ var cbpAnimatedHeader = (function() {
     header = document.querySelector( '.navbar-default' ),
     didScroll = false;
 
-  function init() {
-    window.addEventListener( 'scroll', function( event ) {
-      if( !didScroll ) {
-        didScroll = true;
-        setTimeout( scrollPage, 250 );
+  if($(window).width() > 767) {
+    classie.add(header, 'navbar-transparent');
+
+    function init() {
+      window.addEventListener('scroll', function (event) {
+        if (!didScroll) {
+          didScroll = true;
+          setTimeout(scrollPage, 250);
+        }
+      }, false);
+    }
+
+    function scrollPage() {
+      var sy = scrollY();
+      if (sy >= $('.item.active').height() - 110) {
+        classie.remove(header, 'navbar-transparent');
       }
-    }, false );
-  }
-
-  function scrollPage() {
-    var sy = scrollY();
-    if ( sy >= $('.item.active').height()-110 ) {
-      classie.remove( header, 'navbar-transparent' );
+      else {
+        classie.add(header, 'navbar-transparent');
+      }
+      didScroll = false;
     }
-    else {
-      classie.add( header, 'navbar-transparent' );
+
+    function scrollY() {
+      return window.pageYOffset || docElem.scrollTop;
     }
-    didScroll = false;
-  }
 
-  function scrollY() {
-    return window.pageYOffset || docElem.scrollTop;
+    init();
   }
-
-  init();
 
 });
 

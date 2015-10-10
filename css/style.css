@@ -412,6 +412,6 @@ ul.nav {
   background-size:cover
 }
 
-/*.navbar-collapse.collapse.in {*/
-  /*background-color: white;*/
-/*}*/
+.navbar-collapse.collapse.in {
+  background-color: white;
+}
