@@ -187,8 +187,8 @@ footer {
 }
 
 .social-footer:hover {
-  -webkit-filter: grayscale(100%) contrast(300%);
-  filter: grayscale(100%) contrast(300%);
+  -webkit-filter: grayscale(100%) contrast(100%);
+  filter: grayscale(100%) contrast(100%);
 }
 
 .btn-send {
