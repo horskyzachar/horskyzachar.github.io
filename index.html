@@ -1,726 +1,213 @@
-<!DOCTYPE html>
-<html lang="sk">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="icon" href="images/icons/favicon.ico" />
-    <title>Horsky & Zachar Photographers - svadobní fotografi na Slovensku</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="Som moderný svadobný fotograf z Bratislavy, ale cestujem aj po celom Slovensku. 
-            Verím, že Vás moje portfolio zaujme. Ak by ste sa chceli informovať o cene alebo termíne, kontaktujte ma: andrej@horskyzachar.sk"/>
-    <meta name="keywords" content="horsky, zachar, svadba, fotograf, svadobny fotograf"/>
-    <meta name="robots" content="noodp"/>
-    <meta property="og:site_name" content="Svadobný fotograf Andrej Horský, Lukáš Zachar"/>
-    <meta property="og:url" content="http://www.horskyzachar.sk"/>
-    <meta property="og:description" content="Svadobní fotografi Horsky & Zachar Photographers sú tu pre Vás. Bratislava i celé Slovensko"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+      }
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/scrolling-nav.css" rel="stylesheet"/>
-    <link href="css/style.css" rel="stylesheet"/>
-    <!--[if lt IE 9]>
-      <script src="javascripts/html5shiv.min.js"></script>
-      <script src="javascripts/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript">
-    window.smartlook||(function(d) {
-    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', 'dec7dfe9095c6c3e33778d72b630cc4df656117b');
-    </script>
-  </head>
+      .container {
+          display: grid;
+      }
 
-  <body id="page-top">
+      /* mobile devices */
+      @media only screen and (max-width: 600px) {
+        .container {
+          grid-template-columns: 100%;
+          grid-template-rows: 25% 37% 37%;
+        }
+
+        .headshot {
+          width: 5rem;
+        }
+
+        .link {
+          font-size: 0.72rem;
+          margin-top: 10px;
+        }
+
+        .bio {
+          margin: auto 6rem;
+          padding: 10px 5px;
+        }
+
+        .item {
+          height: 35vh;
+          padding-top: 3vh;
+        }
+
+        .button {
+          padding: 0.4rem 0.5rem;
+          margin: 0 1rem;
+          margin-top: 5px;
+        }
+
+        .central-text {
+          background-color: white;        
+          border-radius: 5px;
+          padding: 0.9rem 0.9rem;
+          text-align: center;
+        }
+
+        .central-body {
+          font-size: 0.8rem;
+          line-height: 1rem;
+          font-weight: 300;
+        }
+
+        .central-footer {
+          font-weight: 700;
+          font-size: 1rem;
+          margin-top: 10px;
+        }
+      }
+
+      /* other screens */
+      @media only screen and (min-width: 600px) {
+        .container {
+          grid-template-columns: 50% auto;
+        }
+
+        .item{
+          height: 70vh;
+          min-height: 598px;
+          padding-top: 30vh;
+        }
+
+        .left {
+          float: left;
+        }
+
+        .right {
+          float: right;
+        }
+
+        .headshot {
+          width: 7.5rem;
+        }
+
+        .link {
+          font-size: 1.0rem;
+          padding-bottom: 20px;
+          margin-top: 30px;
+        }
+
+        .button {
+          padding: 0.8rem 3rem;
+          margin: 0 3rem;
+          margin-top: 10px;
+        }
+
+        .bio {
+          margin: auto 100px;
+          min-height: 200px;
+          padding: 20px 10px;
+        }
+
+        .central-text {
+          background-color: white;
+          position: absolute;
+          top: 30vh;
+          left: 35vw;
+          right: 35vw;
+          min-height: 220px;
+          border-radius: 5px;
+          padding: 1rem 2rem;
+          text-align: center;
+        }
+
+        .central-body {
+          font-size: 1.05rem;
+          line-height: 2rem;
+          font-weight: 300;
+        }
+
+        .central-footer {
+          font-weight: 700;
+          font-size: 1.5rem;
+          margin-top: 20px;
+        }
+      }
+
+      /* general */
+      .item {
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+      }
+
       
-      <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9DNQN"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T9DNQN');</script>
-    <!-- End Google Tag Manager -->
+      .andrej {
+        background-image: url('andrej_title.jpg');
+      }
 
-    <nav id="header-navbar" class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header page-scroll">
-            <a class="hidden-md hidden-lg collapsed navbar-brand" href="#page-top">
-              <img class="navbar-collapsed-logo" alt="H&amp;Z" src="images/hz_logo.png">
-            </a>
+      .lukas {
+        background-image: url('lukas_title.jpg');
+      }
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
+      .bio {
+        background-color: white;
+        border-radius: 5px;
+        max-width: 300px;
+        text-align: center;
+      }
 
-          <div class="collapse navbar-collapse">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-10">
-                <div class="col-xs-5 col-md-4">
-                  <ul class="nav navbar-nav pull-right">
-                    <li><a href="#page-top" class="menu-item page-scroll">DOMOV</a></li>
-                    <li><a href="#work" class="menu-item page-scroll">PORTFÓLIO</a></li>
-                  </ul>
-                </div>
-                <div class="hidden-xs hidden-sm col-md-4 col-centered">
-                  <a class="page-scroll" href="#page-top"><img class="navbar-blog-logo" alt="H&amp;Z" src="images/hz_logo.png"></a>
-                </div>
-                <div class="col-xs-5 col-md-4">
-                  <ul class="nav navbar-nav pull-left">
-                    <li><a href="#team" class="menu-item page-scroll">TÍM</a></li>
-                    <li><a href="#contact" class="menu-item page-scroll">KONTAKT</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </nav>
+      .headshot {
+        border-radius: 50%;
+      }
 
-    <header id="carousel-title" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-title" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-title" data-slide-to="1"></li>
-        <li data-target="#carousel-title" data-slide-to="2"></li>
-      </ol>
+      .button:hover {
+        text-decoration: none;
+        color: black;
+      }
 
-      <!--Carousel items-->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
+      .button {
+        text-decoration: none;
+        background-color: #4ca7cd;
+        border-radius: 8px;
+        color: white;
+        display: block;
+      }
 
-          <div class="fill" style="background-image:url('images/carousel1.jpg');"></div>
+      .link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: block;
+      }
 
-          <div class="carousel-caption">
-            <a href="#work" class="page-scroll"><img class="btn-transparent btn-down" src="images/down_button.png" alt="down"/></a>
-          </div>
-        </div>
+      .link:hover {
+        text-decoration: none;
+      }
 
-        <div class="item">
-          <div class="fill" style="background-image:url('images/carousel2.jpg');"></div>
-
-          <div class="carousel-caption">
-            <a href="#work" class="page-scroll"><img class="btn-transparent btn-down" src="images/down_button.png" alt="down"/></a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="fill" style="background-image:url('images/carousel3.jpg');"></div>
-
-          <div class="carousel-caption">
-            <a href="#work" class="page-scroll"><img class="btn-transparent btn-down" src="images/down_button.png" alt="down"/></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section id="work">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-4 col-md-4">
-            <h1 class="landing-heading text-center">PORTFÓLIO</h1>
-            <hr class="landing-separator"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8">
-            <p class="landing-paragraph text-center">Každá svadba je pre nás svadobných fotografov Váš osobitý príbeh, ktorý ste nám umožnili zachytiť
-                na fotoaparát. Preto sa snažíme vždy spojiť našu profesionalitu s Vašimi predstavami a vytvoriť fotografie, 
-                ktoré si budete radi pozerať dokonca života.</p>
-          </div>
-        </div>
-
-        <div id="carousel-work" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-work" data-slide-to="0" class="work-carousel-indicator active"></li>
-            <li data-target="#carousel-work" data-slide-to="1" class="work-carousel-indicator"></li>
-            <li data-target="#carousel-work" data-slide-to="2" class="work-carousel-indicator"></li>
-            <li data-target="#carousel-work" data-slide-to="3" class="work-carousel-indicator"></li>
-            <li data-target="#carousel-work" data-slide-to="4" class="work-carousel-indicator"></li>
-          </ol>
-
-          <div class="carousel-inner" role="listbox">
-              
-            <div class="item active">
-              
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_6_web_vt/blog.html">
-                  <img class="img-responsive" src="blogs/2019_6_web_vt/thumbnail.jpg" alt="ondriovci"/>
-                  <div class="work-caption">
-                    <h3>V&T</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_5_web_sp/blog.html">
-                  <img class="img-responsive" src="blogs/2019_5_web_sp/thumbnail.jpg" alt="chupacovci"/>
-                  <div class="work-caption">
-                    <h3>S&P</h3>
-                  </div>
-                </a>
-              </div>         
-                               
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_4_web_jz/blog.html">
-                  <img class="img-responsive" src="blogs/2019_4_web_jz/thumbnail.jpg" alt="bittnerovci"/>
-                  <div class="work-caption">
-                    <h3>Z&J</h3>
-                  </div>
-                </a>
-              </div>
-              
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_3_web_vm/blog.html">
-                  <img class="img-responsive" src="blogs/2019_3_web_vm/thumbnail.jpg" alt="kempovci"/>
-                  <div class="work-caption">
-                    <h3>V&M</h3>
-                  </div>
-                </a>
-              </div>  
-                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_2_web_vg/blog.html">
-                  <img class="img-responsive" src="blogs/2019_2_web_vg/thumbnail.jpg" alt="apresianovci"/>
-                  <div class="work-caption">
-                    <h3>V&G</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2019_1_web_ms/blog.html">
-                  <img class="img-responsive" src="blogs/2019_1_web_ms/thumbnail.jpg" alt="levasovski"/>
-                  <div class="work-caption">
-                    <h3>M&S</h3>
-                  </div>
-                </a>
-              </div>                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_2_Web_lm/blog.html">
-                  <img class="img-responsive" src="blogs/2018_2_Web_lm/thumbnail.jpg" alt="fedor"/>
-                  <div class="work-caption">
-                    <h3>L&M</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_6_web_lj/blog.html">
-                  <img class="img-responsive" src="blogs/2018_6_web_lj/thumbnail.jpg" alt="lupacovi"/>
-                  <div class="work-caption">
-                    <h3>L&J</h3>
-                  </div>
-                </a>
-              </div>
-                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_5_web_nm/blog.html">
-                  <img class="img-responsive" src="blogs/2018_5_web_nm/thumbnail.jpg" alt="dubecovci"/>
-                  <div class="work-caption">
-                    <h3>N&M</h3>
-                  </div>
-                </a>
-              </div>
-
-                
-            </div>  
-              
-              
-            <div class="item">
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_4_web_mb/blog.html">
-                  <img class="img-responsive" src="blogs/2018_4_web_mb/thumbnail.jpg" alt="horakovci"/>
-                  <div class="work-caption">
-                    <h3>M&B</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_3_web_zm/blog.html">
-                  <img class="img-responsive" src="blogs/2018_3_web_zm/thumbnail.jpg" alt="stenclovi"/>
-                  <div class="work-caption">
-                    <h3>Z&M</h3>
-                  </div>
-                </a>
-              </div>         
-                               
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2018_1_Web_pm/blog.html">
-                  <img class="img-responsive" src="blogs/2018_1_Web_pm/thumbnail.jpg" alt="durmek"/>
-                  <div class="work-caption">
-                    <h3>P&M</h3>
-                  </div>
-                </a>
-              </div>
-              
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2017_4_Web_ht/blog.html">
-                  <img class="img-responsive" src="blogs/2017_4_Web_ht/thumbnail.jpg" alt="harag"/>
-                  <div class="work-caption">
-                    <h3>H&T</h3>
-                  </div>
-                </a>
-              </div>  
-                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2017_3_Web_am/blog.html">
-                  <img class="img-responsive" src="blogs/2017_3_Web_am/thumbnail.jpg" alt="durisovci"/>
-                  <div class="work-caption">
-                    <h3>A&M</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2017_2_Web_mm/blog.html">
-                  <img class="img-responsive" src="blogs/2017_2_Web_mm/thumbnail.jpg" alt="ivanko"/>
-                  <div class="work-caption">
-                    <h3>M&M</h3>
-                  </div>
-                </a>
-              </div>                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_10_Web_vt/blog.html">
-                  <img class="img-responsive" src="blogs/2016_10_Web_vt/thumbnail.jpg" alt="pastirakovi"/>
-                  <div class="work-caption">
-                    <h3>V&T</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_11_Web_lch/blog.html">
-                  <img class="img-responsive" src="blogs/2016_11_Web_lch/thumbnail.jpg" alt="christiaens"/>
-                  <div class="work-caption">
-                    <h3>L&CH</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_7_Web_lj/blog.html">
-                  <img class="img-responsive" src="blogs/2016_7_Web_lj/thumbnail.jpg" alt="teslarovci"/>
-                  <div class="work-caption">
-                    <h3>L&J</h3>
-                  </div>
-                </a>
-              </div>
-
-
-            </div>  
-              
-            <div class="item">
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_6_Web_zj/blog.html">
-                  <img class="img-responsive" src="blogs/2016_6_Web_zj/thumbnail.jpg" alt="kolinekovci"/>
-                  <div class="work-caption">
-                    <h3>Z&J</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_12_Web_av/blog.html">
-                  <img class="img-responsive" src="blogs/2016_12_Web_av/thumbnail.jpg" alt="repanovci"/>
-                  <div class="work-caption">
-                    <h3>A&V</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_4_Web_mj/blog.html">
-                  <img class="img-responsive" src="blogs/2016_4_Web_mj/thumbnail.jpg" alt="rybanovi"/>
-                  <div class="work-caption">
-                    <h3>M&J</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_3_Web_vm/blog.html">
-                  <img class="img-responsive" src="blogs/2016_3_Web_vm/thumbnail.jpg" alt="sebestovci"/>
-                  <div class="work-caption">
-                    <h3>V&M</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2017_1_Web_mt/blog.html">
-                  <img class="img-responsive" src="blogs/2017_1_Web_mt/thumbnail.jpg" alt="strokovci"/>
-                  <div class="work-caption">
-                    <h3>M&T</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_1_Web_zp/blog.html">
-                  <img class="img-responsive" src="blogs/2016_1_Web_zp/thumbnail.jpg" alt="novacikovci"/>
-                  <div class="work-caption">
-                    <h3>Z&P</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_20_Web_vl/blog.html">
-                  <img class="img-responsive" src="blogs/2015_20_Web_vl/thumbnail.jpg" alt="dobranski"/>
-                  <div class="work-caption">
-                    <h3>V&L</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_18_Web_mj/blog.html">
-                  <img class="img-responsive" src="blogs/2015_18_Web_mj/thumbnail.jpg" alt="hvozdikovci"/>
-                  <div class="work-caption">
-                    <h3>M&J</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_17_Web_er/blog.html">
-                  <img class="img-responsive" src="blogs/2015_17_Web_er/thumbnail.jpg" alt="gutierrezovci"/>
-                  <div class="work-caption">
-                    <h3>E&R</h3>
-                  </div>
-                </a>
-              </div>
-
-            </div>
-
-            <div class="item">
-                
-               <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_9_Web_rt/blog.html">
-                  <img class="img-responsive" src="blogs/2016_9_Web_rt/thumbnail.jpg" alt="oravcovi"/>
-                  <div class="work-caption">
-                    <h3>R&T</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_8_Web_mm/blog.html">
-                  <img class="img-responsive" src="blogs/2016_8_Web_mm/thumbnail.jpg" alt="selepovci"/>
-                  <div class="work-caption">
-                    <h3>M&M</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_5_Web_sl/blog.html">
-                  <img class="img-responsive" src="blogs/2016_5_Web_sl/thumbnail.jpg" alt="spiller"/>
-                  <div class="work-caption">
-                    <h3>S&L</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_13_Web_lf/blog.html">
-                  <img class="img-responsive" src="blogs/2015_13_Web_lf/thumbnail.jpg" alt="ivankovci"/>
-                  <div class="work-caption">
-                    <h3>L&F</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_12_Web_tp/blog.html">
-                  <img class="img-responsive" src="blogs/2015_12_Web_tp/thumbnail.jpg" alt="harvanovci"/>
-                  <div class="work-caption">
-                    <h3>T&P</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2016_2_Web_lm/blog.html">
-                  <img class="img-responsive" src="blogs/2016_2_Web_lm/thumbnail.jpg" alt="lapidesovci"/>
-                  <div class="work-caption">
-                    <h3>L&M</h3>
-                  </div>
-                </a>
-              </div>                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_9_Web_bf/blog.html">
-                  <img class="img-responsive" src="blogs/2015_9_Web_bf/thumbnail.jpg" alt="krajcovci"/>
-                  <div class="work-caption">
-                    <h3>B&F</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_8_Web_kj/blog.html">
-                  <img class="img-responsive" src="blogs/2015_8_Web_kj/thumbnail.jpg" alt="sulavikovci"/>
-                  <div class="work-caption">
-                    <h3>K&J</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_7_Web_am/blog.html">
-                  <img class="img-responsive" src="blogs/2015_7_Web_am/thumbnail.jpg" alt="pavlikovci"/>
-                  <div class="work-caption">
-                    <h3>A&M</h3>
-                  </div>
-                </a>
-              </div>
-
-            </div>
-
-            <div class="item">
-               
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_5_Web_lm/blog.html">
-                  <img class="img-responsive" src="blogs/2015_5_Web_lm/thumbnail.jpg" alt="zitnanski"/>
-                  <div class="work-caption">
-                    <h3>L&M</h3>
-                  </div>
-                </a>
-              </div> 
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/01_toporovci/blog.html">
-                  <img class="img-responsive" src="blogs/01_toporovci/thumbnail.jpg" alt="toporovci"/>
-                  <div class="work-caption">
-                    <h3>B&L</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_16_Web_do/blog.html">
-                  <img class="img-responsive" src="blogs/2015_16_Web_do/thumbnail.jpg" alt="stefanikovci"/>
-                  <div class="work-caption">
-                    <h3>D&O</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_15_Web_zr/blog.html">
-                  <img class="img-responsive" src="blogs/2015_15_Web_zr/thumbnail.jpg" alt="habrdovci"/>
-                  <div class="work-caption">
-                    <h3>Z&R</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2015_14_Web_pd/blog.html">
-                  <img class="img-responsive" src="blogs/2015_14_Web_pd/thumbnail.jpg" alt="zajickovci"/>
-                  <div class="work-caption">
-                    <h3>P&D</h3>
-                  </div>
-                </a>
-              </div>
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-               <a href="blogs/2015_10_Web_mi/blog.html">
-                  <img class="img-responsive" src="blogs/2015_10_Web_mi/thumbnail.jpg" alt="lukacovci"/>
-                  <div class="work-caption">
-                    <h3>M&I</h3>
-                  </div>
-                </a>
-              </div>                
-                
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                 <a href="blogs/03_komackovci/blog.html">
-                  <img class="img-responsive" src="blogs/03_komackovci/thumbnail.jpg" alt="komackovci"/>
-                  <div class="work-caption">
-                    <h3>A&T</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/02_didovci/blog.html">
-                  <img class="img-responsive" src="blogs/02_didovci/thumbnail.jpg" alt="didovci"/>
-                  <div class="work-caption">
-                    <h3>M&M</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-xs-6 col-sm-4 work-thumbnail">
-                <a href="blogs/2014_9_Web_hm/blog.html">
-                  <img class="img-responsive" src="blogs/2014_9_Web_hm/thumbnail.jpg" alt="sabolovci"/>
-                  <div class="work-caption">
-                    <h3>A&M</h3>
-                  </div>
-                </a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="shadowed">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-offset-4 col-sm-4">
-            <h1 class="landing-heading text-center">TÍM H&amp;Z</h1>
-            <hr class="landing-separator"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-offset-2 col-sm-8">
-            <p class="landing-paragraph text-center">V roku 2010 sme sa ako dvaja mladí chalani rozhodli skrášliť
-                svadobnú fotografiu na Slovensku. A tak vzniklo Horsky & Zachar Photographers, ktoré má už za sebou desiatky svadieb.
-                Neváhajte a pridajte k nim aj tú Vašu. 
-                <br />
-                Síce dnes už chodievame fotiť každý samostatne, značku sme sa rozhodli zachovať.
-                Andrej sa nachádza v Prešove a Lukáš v Bratislave, avšak každý z nás chodí fotiť po celom Slovensku (a ďalej). </p>
-          </div>
-        </div>
-
-
-        <div class="row equal">
-          <div class="col-xs-12 col-md-offset-2 col-md-8">
-            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5 col-md-offset-0 col-md-5">
-              <div class="panel panel-default panel-team shadowed">
-                <img src="images/Andrej2.png" class="img-responsive img-circle img-team shadowed" alt="Andrej"/>
-
-                <h3 class="team-member text-uppercase text-center">Andrej Horský</h3>
-
-                <p class="team-description text-center">Svadobný fotograf</p>
-
-                <p class="team-email text-center">andrej@horskyzachar.sk</p>
-
-                <p class="team-email text-center">+421 918 414 423</p>
-              </div>
-            </div>
-
-            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-5">
-              <div class="panel panel-default panel-team shadowed">
-                <img src="images/Lukas2.png" class="img-responsive img-circle img-team shadowed" alt="Lukáš"/>
-
-                <h3 class="team-member text-uppercase text-center">Lukáš Zachar</h3>
-
-                <p class="team-description text-center">Svadobný fotograf</p>
-
-                <p class="team-email text-center">lukas@horskyzachar.sk</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-offset-4 col-sm-4">
-            <h1 class="landing-heading text-center">KONTAKT</h1>
-            <hr class="landing-separator"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-offset-2 col-sm-8">
-            <p class="landing-paragraph text-center">Napíšte nám, budeme veľmi radi. Či už o obsadenosti termínov, alebo len o tom, ako sa máte. Každý
-                email nás vždy poteší. U nás má na starosti emaily z tohto formulára Andrej, takže ak by ste chceli špeciálne písať Lukášovi, jeho email nájdete vyššie. </p>
-          </div>
-        </div>
-
-        <form name="send-message" id="contact-form" method="POST" action="http://formspree.io/andrej@horskyzachar.sk">
-          <div class="row">
-            <div class="col-sm-offset-2 col-sm-8">
-              <textarea name="message" cols="30" rows="10" placeholder="Napíšte nám..."
-                        class="form-control contact-form-field input-lg" required
-                        data-validation-required-message="Prosím vyplňte text správy."></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-offset-2 col-sm-5">
-              <input class="contact-form-field form-control input-md" type="text" name="_replyto"
-                     placeholder="Váš @email..." required data-validation-required-message="Prosím vyplňte Váš email."/>
-            </div>
-            <div class="col-sm-3">
-              <button type="submit" value="send" class="btn btn-default btn-lg btn-send input-md form-control shadowed">
-                <span class="glyphicon glyphicon-send" aria-hidden="true"></span>POSLAŤ
-              </button>
-            </div>
-          </div>
-          <input type="hidden" name="_next" value="http://horskyzachar.github.io"/>
-          <input type="hidden" name="_subject" value="Správa na horskyzachar.sk"/>
-          <input type="text" name="_gotcha" style="display:none"/>
-        </form>
-      </div>
-    </section>
-
+    </style>
+  </head>
+  <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-centered">
-          <a href="#page-top" class="page-scroll"><img id="up-button" class="btn-transparent" src="images/up_button.png" alt="up"/></a>
+      <div class="central-text">
+        <div class="central-body">Po 10-tich rokoch spoločnej cesty sme sa rozhodli, že je čas, aby každý z nás mal svoj brand. Sme veľmi radi, že sme to doteraz ťahali spolu a veríme, že si jedného z nás vždy radi vyberiete a budete spokojní.
+        <br>Nič sa nekončí, práveže všetko začína.<br></div>
+        <div class="central-footer">Andrej & Lukáš</div>
+      </div>
+      <div class="item andrej">
+        <div class="bio left">
+          <img src="andrej.png" alt="" class="headshot">
+          <a href="http://andrejhorsky.sk" class="link">www.andrejhorsky.sk</a>
+          <a href="http://andrejhorsky.sk" class="button" target="_blank">WEB</a>
+        </div>
+      </div>
+      <div class="item lukas">
+        <div class="bio right">
+          <img src="lukas.png" alt="" class="headshot">
+          <a href="http://lukaszachar.sk" class="link">www.lukaszachar.sk</a>
+          <a href="http://lukaszachar.sk" class="button" target="_blank">WEB</a>
         </div>
       </div>
     </div>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="hidden-xs hidden-sm col-md-5">
-            <p class="footer-text pull-right">Copyright &copy; 2015 Horsky&amp;Zachar Photographers</p>
-          </div>
-          <div class="col-xs-12 col-md-2 col-centered">
-            <a href="http://goo.gl/j6Wqd0" target="_blank"><img class="social-footer" src="images/facebook.png" alt="Facebook"/></a>
-            <a href="http://www.instagram.com/horskyzacharphotographers" target="_blank"><img class="social-footer" src="images/intagram_logo.png" alt="Instagram"/></a>
-          </div>
-
-          <div class="col-xs-12 hidden-md hidden-lg col-centered">
-            <p class="footer-text">Copyright &copy; 2015 Horsky&amp;Zachar Photographers</p>
-          </div>
-
-          <div class="hidden-xs hidden-sm col-md-5">
-            <ul class="footer-text list-unstyled list-inline">
-              <li><a href="#page-top" class="footer-link page-scroll">Domov</a></li>
-              <li><a href="#work" class="footer-link page-scroll">Portfólio</a></li>
-              <li><a href="#team" class="footer-link page-scroll">Tím</a></li>
-              <li><a href="#contact" class="footer-link page-scroll">Kontakt</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
-    <script src="javascripts/jquery.easing.min.js"></script>
-    <script src="javascripts/scrolling-nav.js"></script>
-    <script src="javascripts/classie.js"></script>
-    <script src="javascripts/cbpAnimatedHeader.js"></script>
-    <script src="javascripts/carousel-adjustments.js"></script>
-    <script>
-      $('#carousel-work').carousel({interval: false});
-    </script>
   </body>
 </html>
